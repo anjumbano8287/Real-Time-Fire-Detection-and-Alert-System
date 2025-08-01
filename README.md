@@ -23,24 +23,77 @@ Backend-Flask
 
 Important teck stack for this project
 💻 Tech Stack
+
+
+
 Category	                        Tools & Libraries
+
+
 👁️ Computer Vision              	OpenCV, YOLOv8 (Ultralytics)
+
+
+
+
 ⚙️ Detection Logic              	Frame skipping, brightness flicker filtering
+
+
+
 🔊 Audio Alerts	                  gTTS (Google Text-to-Speech), playsound
+
+
+
+
 🌐 Location & Maps              	OpenStreetMap (for sending location-based alert link)
+
+
 📱 Emergency Alerts	              Twilio (SMS & Voice Calls)
+
+
 🧠 Language Support	              Multilingual announcements (Hindi & English)
+
+
 🛡️ Tampering Detection	          Black screen, frozen feed, and unplugged camera logic
+
+
 🐍 Programming Language	          Python
 
+
+
 Required python Libraries need to install
+
+
+
 ultralytics           # For YOLOv8
+
+
+
 opencv-python         # For real-time video processing
+
+
+
 numpy                 # For array and image operations
+
+
+
 gTTS                  # Google Text-to-Speech for bilingual announcements
+
+
+
 playsound             # To play audio alerts
+
+
+
 twilio                # For SMS and voice call alerts
+
+
+
 requests              # To interact with external APIs (e.g., location)
+
+
+
 langdetect            # For multilingual detection (if needed)
+
+
+
 
 Thankyou for watch 
